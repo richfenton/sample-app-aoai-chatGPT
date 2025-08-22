@@ -12,6 +12,8 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { nord } from 'react-syntax-highlighter/dist/esm/styles/prism'
 
 import styles from './Chat.module.css'
+// Use Zinc logo from the public folder
+const ZincLogo = "/logo.svg";
 
 import { XSSAllowTags } from '../../constants/sanatizeAllowables'
 
