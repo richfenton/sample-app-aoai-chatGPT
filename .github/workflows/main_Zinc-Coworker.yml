@@ -42,3 +42,5 @@ jobs:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
         images:   ${{ secrets.ACR_LOGIN_SERVER }}/${{ env.IMAGE_NAME }}:${{ env.IMAGE_TAG }}
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_83AF00950A946A5B1ACE76F482D09736 }}
+
+        Add GitHub Actions workflow for Zinc-Coworker deployment
