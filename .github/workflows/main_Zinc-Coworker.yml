@@ -6,6 +6,7 @@ name: Build and deploy container app to Azure Web App - Zinc-Coworker
 on:
   push:
     branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
   main_Zinc-Coworker:
